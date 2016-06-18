@@ -1,0 +1,323 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: #ffffff;
+	background: #4b4743;
+}
+
+li.container{
+	border-top-width: 0px;
+	border-right-width: 5px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+
+a:link, a:visited { color: #e6e154; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #e6e154; text-decoration: underline;}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+#container{
+	width: 960px;
+	margin: 0px auto;
+	padding: 0 10px;
+	background: #1c1c1b url(../images/bg.jpg) repeat-y;
+}
+
+/* menu */
+
+#menu {
+	clear: both;
+	width: 960px;
+	height: 45px;
+	background: url(../images/temobanner.jpg) no-repeat;
+}
+
+#menu ul {
+	padding: 13px 0 0 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+#menu ul li a{
+	list-style-type: none;
+	float: left;
+	padding: 0 20px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #969547;
+}
+#menu ul ul.sub li a {
+	list-style-type: none;
+	float: left;
+	padding: 0 20px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #969547;
+	display:none;
+}
+#menu ul.sub li a:hover{
+display:block;	
+}
+#menu li a:hover, #menu li .current{
+	color: #fcf88e;
+}
+
+ul #menu a{
+text-decoration: none;
+display: block;
+width:125px;	
+height:125px;
+}
+ul #menu .sub a {
+margin-top: 3px;	
+}
+ul #menu ul.sub{
+display:none;
+position:absolute;
+top: 36px;
+left:0px;	
+} 
+ul #menu li:hover.sub{
+	
+display: block;
+}
+.searchbtn{
+	float:left;
+	padding: 0 20px;
+}
+
+/* end of menu*/
+
+/* header */
+#header {
+	clear: both;
+	width: 960px;
+	height: 285px;
+	padding: 0;
+	margin: 0;
+}
+
+#header a,a:hover {
+	color: #ffffff;
+}
+
+#header #special_offers {
+	float: left;
+	font-size: 14px;	
+	margin-top: 95px;
+	margin-left: 490px;
+	width: 180px;
+}
+
+#special_offers a {
+	font-size: 12px;
+}
+
+#special_offers  p {
+	margin: 0 0 20px 0;
+}
+#special_offers p span {
+	font-size: 18px;
+}
+
+#header #new_stuff {
+	float: left;
+	width: 180px;
+}
+
+#header #another_new_stuff{
+	float: left;
+	width: 180px;
+}
+#login{
+margin-left: 80px;
+border: 2px solid #993300;
+width: 400px;
+height:732px;
+text-align: center;
+background-color: skyblue;
+position:relative;	
+}
+
+#login input{
+position: relative;	
+}
+
+#login .two{
+border: 2px solid #ffffff;
+text-align: center;
+background-color: #fcf88e;	
+margin-left:15px;
+margin-right:15px;
+margin-top:15px;
+margin-bottom:20px;
+}
+
+#login h3  {
+	color:blue;
+	
+}
+/* end of header */
+
+
+/* content */
+#content {
+	clear: both;
+	width: 920px;
+	padding: 0 20px;
+}
+
+#content #content_left {
+	float: left;
+	width: 188px;
+	padding: 10px;
+	background-color: #171716;
+	border: 1px solid #212120;
+}
+
+#content #content_right {
+	float: right;
+	width: 670px;
+}
+
+
+#content_left .content_left_section{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2b2b2a;
+	margin-bottom: 20px;
+}
+
+.content_left_section h1 {
+	font-size: 14px;
+	color: #cbc750;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #cbc750;
+}
+
+.content_left_section ul {
+	padding: 0;
+	margin: 0;
+}
+.content_left_section img {
+	align:center;
+	width: 90%;
+	height: 240px;
+}
+.content_left_section ul li{
+	padding: 0 0 3px 10px;	
+	list-style: none;
+}
+
+.content_left_section ul li a{
+	font-weight: normal;
+	font-size:12px;
+	text-decoration: none;
+	color: #969547;
+}
+
+.content_left_section li a:hover, .content_left_section li .current{
+	color: #fcf88e;
+}
+
+#content_right .product_box {
+	width: 95%;
+	padding: 10px;
+	border: 1px solid #333;
+}
+
+#content_right h1 {
+	padding: 10px;
+	margin: 0 0 20px 0;
+	font-size: 15px;
+	color: #cbc750;	
+}
+
+.product_box h1 span {
+	font-weight: normal;
+}
+
+.product_box img {
+	float: left;
+	margin-right: 20px;
+}
+
+.product_box .product_info {
+	width: 80%;
+}
+.formholder {
+	float:none;
+	width: 95%;
+	padding: 10px;
+	border: 1px solid #333;
+	list-style-type: none;
+}
+
+.formholderRegister {
+	float:none;
+	width: 95%;
+	padding: 10px;
+	border: 1px solid #333;
+	list-style-type: none;
+}
+
+.input-control {
+    padding: 10px 42px 18px 18px;
+    height: inherit;
+    font-size: 1.1em;
+    border-color: #01553D;
+	line-height: 1.1;
+}
+.btn-control { 
+    line-height: 11.42857143; 
+}
+.img-circle {
+ border-radius: 50%;
+}
+/* end of content */
+
+/* footer */
+#footer {
+	clear: both;
+	width: 960px;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	border-top: 1px solid #25211e;
+	color: #999;
+	background-color: #111110;
+	background: url(../images/temobanner.jpg) no-repeat;
+}
+
+#footer a{
+	color: #fff;
+	font-weight: normal;
+}
+/* end of footer */
