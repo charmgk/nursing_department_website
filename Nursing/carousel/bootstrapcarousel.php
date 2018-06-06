@@ -26,16 +26,31 @@ echo ' <!-- ze new slidder in town!! -->
             <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 10px; width: 1140px; height: 442px;
             overflow: hidden;">
                 <div>
-                    <img u="image" src2="carousel/img/home/cuclogo.png" />
+                    <img u="image" src2="carousel/img/home/banner.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="carousel/img/home/banner.png" />
+                    <img u="image" src2="carousel/img/home/banner1.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="carousel/img/home/icon1.png" />
+                    <img u="image" src2="carousel/img/home/banner2.jpg" />
                 </div>
                 <div>
-                    <img u="image" src2="carousel/img/home/iconlayer3.png" />
+                    <img u="image" src2="carousel/img/home/banner3.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="carousel/img/home/banner4.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="carousel/img/home/banner5.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="carousel/img/home/banner6.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="carousel/img/home/banner7.jpg" />
+                </div>
+                <div>
+                    <img u="image" src2="carousel/img/home/banner8.jpg" />
                 </div>
             </div>
             
